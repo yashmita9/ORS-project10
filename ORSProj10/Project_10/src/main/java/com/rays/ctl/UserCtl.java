@@ -76,7 +76,7 @@ public class UserCtl extends BaseCtl<UserForm, UserDTO, UserServiceInt> {
 		ORSResponse res = new ORSResponse();
 
 		session.invalidate();
-
+		res.setSuccess(true); 
 		res.addMessage("Logout successfully..!!");
 
 		return res;
