@@ -56,6 +56,8 @@ import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product/product-list.component';
 import { CustomerComponent } from './customer/customer.component';
 import { CustomerListComponent } from './customer/customer-list.component';
+import { TransportationComponent } from './transportation/transportation.component';
+import { TransportationListComponent } from './transportation/transportation-list.component';
 
 
 
@@ -109,6 +111,8 @@ export function myHttpLoader(http: HttpClient) {
     ProductListComponent,
     CustomerComponent,
     CustomerListComponent,
+    TransportationComponent,
+    TransportationListComponent,
 
   ],
   imports: [
